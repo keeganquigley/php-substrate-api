@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/keeganquigley/php-substrate-api'
+composer install --no-interaction --prefer-dist
+vendor/bin/phpcs --standard=PSR2 src -n
+make: Leaving directory `/Users/keeganquigley/php-substrate-api'
+ 
